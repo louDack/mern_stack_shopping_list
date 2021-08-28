@@ -43,7 +43,6 @@ class ShoppingList extends Component {
                     className="remove-btn"
                     color="danger"
                     size="sm"
-                    // this.onDeleteClick(this, id)
                     onClick={() => { this.onDeleteClick(id) }}
                   >
                     &times;
